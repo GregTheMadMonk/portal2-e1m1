@@ -21,7 +21,7 @@ viewsettings
 	"bShowGrid" "1"
 	"bShowLogicalGrid" "0"
 	"nGridSpacing" "2"
-	"bShow3DGrid" "1"
+	"bShow3DGrid" "0"
 }
 world
 {
