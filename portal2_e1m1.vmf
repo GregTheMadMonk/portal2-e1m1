@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8973"
-	"mapversion" "472"
+	"mapversion" "481"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,13 +20,13 @@ viewsettings
 	"bSnapToGrid" "1"
 	"bShowGrid" "1"
 	"bShowLogicalGrid" "0"
-	"nGridSpacing" "2"
+	"nGridSpacing" "32"
 	"bShow3DGrid" "0"
 }
 world
 {
 	"id" "1"
-	"mapversion" "472"
+	"mapversion" "481"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -11996,82 +11996,6 @@ world
 	}
 	solid
 	{
-		"id" "4167"
-		side
-		{
-			"id" "181"
-			"plane" "(864 832 544) (864 1472 544) (1696 1472 544)"
-			"material" "PROPS/PLASTICWALL003A"
-			"uaxis" "[1 0 0 384] 0.25"
-			"vaxis" "[0 -1 0 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "182"
-			"plane" "(864 1472 32) (864 832 32) (1696 832 32)"
-			"material" "PROPS/PLASTICWALL003A"
-			"uaxis" "[1 0 0 384] 0.25"
-			"vaxis" "[0 -1 0 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "183"
-			"plane" "(864 832 32) (864 1472 32) (864 1472 544)"
-			"material" "PROPS/PLASTICWALL003A"
-			"uaxis" "[0 1 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "184"
-			"plane" "(1696 1472 32) (1696 832 32) (1696 832 544)"
-			"material" "PROPS/PLASTICWALL003A"
-			"uaxis" "[0 1 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "185"
-			"plane" "(864 1472 32) (1696 1472 32) (1696 1472 544)"
-			"material" "PROPS/PLASTICWALL003A"
-			"uaxis" "[1 0 0 384] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "186"
-			"plane" "(1696 832 32) (864 832 32) (864 832 544)"
-			"material" "PROPS/PLASTICWALL003A"
-			"uaxis" "[1 0 0 384] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		editor
-		{
-			"color" "0 180 165"
-			"visgroupshown" "1"
-			"visgroupautoshown" "1"
-		}
-	}
-	solid
-	{
 		"id" "4192"
 		side
 		{
@@ -15372,6 +15296,87 @@ world
 }
 entity
 {
+	"id" "28562"
+	"classname" "func_instance"
+	"angles" "0 0 0"
+	"file" "./instances/chambers/room3.vmf"
+	"origin" "1280 1152 288"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[4000 3000]"
+	}
+}
+entity
+{
+	"id" "28602"
+	"classname" "light_spot"
+	"_cone" "45"
+	"_exponent" "1"
+	"_inner_cone" "30"
+	"_light" "255 255 255 20000"
+	"_lighthdr" "-1 -1 -1 1"
+	"_lightscalehdr" "1"
+	"_quadratic_attn" "1"
+	"angles" "-21.5 100 -90"
+	"pitch" "-21.5"
+	"origin" "1536 448 353.738"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[4000 3500]"
+	}
+}
+entity
+{
+	"id" "28623"
+	"classname" "light_spot"
+	"_cone" "45"
+	"_exponent" "1"
+	"_inner_cone" "30"
+	"_light" "255 255 255 20000"
+	"_lighthdr" "-1 -1 -1 1"
+	"_lightscalehdr" "1"
+	"_quadratic_attn" "1"
+	"angles" "-21.5 112 -90"
+	"pitch" "-21.5"
+	"origin" "1472 448 353.738"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[4000 3500]"
+	}
+}
+entity
+{
+	"id" "28630"
+	"classname" "light_spot"
+	"_cone" "45"
+	"_exponent" "1"
+	"_inner_cone" "30"
+	"_light" "255 255 255 20000"
+	"_lighthdr" "-1 -1 -1 1"
+	"_lightscalehdr" "1"
+	"_quadratic_attn" "1"
+	"angles" "-21.5 96 -90"
+	"pitch" "-21.5"
+	"origin" "1504 448 353.738"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[4000 3500]"
+	}
+}
+entity
+{
 	"id" "24667"
 	"classname" "infodecal"
 	"angles" "0 0 0"
@@ -15456,40 +15461,6 @@ entity
 }
 entity
 {
-	"id" "24994"
-	"classname" "prop_static"
-	"angles" "0 270 0"
-	"disableselfshadowing" "0"
-	"disableshadows" "0"
-	"disablevertexlighting" "0"
-	"disablex360" "0"
-	"drawinfastreflection" "0"
-	"fademaxdist" "0"
-	"fademindist" "-1"
-	"fadescale" "1"
-	"ignorenormals" "0"
-	"maxcpulevel" "0"
-	"maxdxlevel" "0"
-	"maxgpulevel" "0"
-	"mincpulevel" "0"
-	"mindxlevel" "0"
-	"mingpulevel" "0"
-	"model" "models/props_bts/walkway_destroyed_128a.mdl"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
-	"skin" "0"
-	"solid" "6"
-	"origin" "864 1088 58"
-	editor
-	{
-		"color" "255 255 0"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 15000]"
-	}
-}
-entity
-{
 	"id" "25230"
 	"classname" "prop_dynamic"
 	"angles" "0 180 0"
@@ -15530,7 +15501,7 @@ entity
 	"origin" "1414 -460 384"
 	editor
 	{
-		"color" "0 199 252"
+		"color" "220 30 220"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 -6268]"
@@ -15559,8 +15530,7 @@ entity
 	"origin" "1414 -460 356"
 	editor
 	{
-		"color" "0 161 178"
-		"visgroupid" "1953693742"
+		"color" "220 30 220"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 -5268]"
@@ -15585,7 +15555,7 @@ entity
 	"origin" "1414 -460 328"
 	editor
 	{
-		"color" "0 159 156"
+		"color" "255 255 0"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 -6268]"
@@ -15694,14 +15664,14 @@ entity
 		}
 		editor
 		{
-			"color" "0 165 246"
+			"color" "220 30 220"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
 	}
 	editor
 	{
-		"color" "0 165 246"
+		"color" "220 30 220"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 12000]"
@@ -15809,14 +15779,14 @@ entity
 		}
 		editor
 		{
-			"color" "0 215 152"
+			"color" "220 30 220"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
 	}
 	editor
 	{
-		"color" "0 215 152"
+		"color" "220 30 220"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 12500]"
@@ -15964,14 +15934,14 @@ entity
 		}
 		editor
 		{
-			"color" "0 197 202"
+			"color" "220 30 220"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
 	}
 	editor
 	{
-		"color" "0 197 202"
+		"color" "220 30 220"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 13000]"
@@ -16471,7 +16441,7 @@ entity
 	"id" "23099"
 	"classname" "func_instance"
 	"angles" "-0 0 0"
-	"file" "portal2_e1m1/instances/fixed_screen1.vmf"
+	"file" "./instances/fixed_screen1.vmf"
 	"origin" "608 346 143.003"
 	editor
 	{
