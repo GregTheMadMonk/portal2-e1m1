@@ -6,7 +6,7 @@ Source files for Valve Hammer Editor.
 - [x] Room 1 (Faith plate)
 - [x] Room 2 (Portal gun)
 - [ ] BTS-1 area - WIP
-- [ ] Room 3 (Test Chamber)
+- [ ] Room 3 (Test Chamber) - WIP
 - [ ] Room 4 (Test Chamber)
 - [ ] BTS-2
 - [ ] Final Room
