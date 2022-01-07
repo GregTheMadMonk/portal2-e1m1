@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8973"
-	"mapversion" "498"
+	"mapversion" "508"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -26,7 +26,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "498"
+	"mapversion" "508"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -15222,7 +15222,7 @@ entity
 {
 	"id" "28562"
 	"classname" "func_instance"
-	"angles" "0 0 0"
+	"angles" "-0 0 0"
 	"file" "./instances/chambers/room3.vmf"
 	"origin" "1280 1152 288"
 	editor
@@ -16656,7 +16656,7 @@ entity
 	"rendermode" "0"
 	"shadowdepthnocache" "0"
 	"solid" "0"
-	"spawnflags" "1032"
+	"spawnflags" "8"
 	"spawnpos" "0"
 	"speed" "30"
 	"targetname" "faith1_ceil_door"
@@ -16853,7 +16853,7 @@ entity
 	"rendermode" "0"
 	"shadowdepthnocache" "0"
 	"solid" "0"
-	"spawnflags" "1032"
+	"spawnflags" "8"
 	"spawnpos" "0"
 	"speed" "30"
 	"targetname" "faith1_ceil_door"
@@ -17213,7 +17213,7 @@ entity
 		"OnPressed" "faith1_spotsinstance:TurnOn;Trigger2.51"
 		"OnPressed" "faith1_triggerEnable01"
 		"OnPressed" "broken_light_blink_timer1Disable01"
-		"OnPressed" "faith1_broken_lightHideSprite0-1"
+		"OnPressed" "faith1_broken_lightHideSprite0.05-1"
 		"OnPressed" "faith1_ceil_doorOpen0-1"
 		"OnPressed" "faith1_ceil_light_onPlaySound2.5-1"
 		"OnPressed" "faith1_ceil_door_openPlaySound0-1"
@@ -17894,7 +17894,7 @@ entity
 		{
 			"id" "2790"
 			"plane" "(391.25 448 192) (392.25 448 192) (392.25 248 192)"
-			"material" "TOOLS/TOOLSNODRAW"
+			"material" "TOOLS/TOOLSINVISIBLE"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -17905,7 +17905,7 @@ entity
 		{
 			"id" "2789"
 			"plane" "(391.25 248 64) (392.25 248 64) (392.25 448 64)"
-			"material" "TOOLS/TOOLSNODRAW"
+			"material" "TOOLS/TOOLSINVISIBLE"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -17916,7 +17916,7 @@ entity
 		{
 			"id" "2788"
 			"plane" "(391.25 448 192) (391.25 248 192) (391.25 248 64)"
-			"material" "TOOLS/TOOLSNODRAW"
+			"material" "TOOLS/TOOLSINVISIBLE"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -17927,7 +17927,7 @@ entity
 		{
 			"id" "2787"
 			"plane" "(392.25 448 64) (392.25 248 64) (392.25 248 192)"
-			"material" "TOOLS/TOOLSNODRAW"
+			"material" "TOOLS/TOOLSINVISIBLE"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -17938,7 +17938,7 @@ entity
 		{
 			"id" "2786"
 			"plane" "(392.25 448 192) (391.25 448 192) (391.25 448 64)"
-			"material" "TOOLS/TOOLSNODRAW"
+			"material" "TOOLS/TOOLSINVISIBLE"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -17949,7 +17949,7 @@ entity
 		{
 			"id" "2785"
 			"plane" "(392.25 248 64) (391.25 248 64) (391.25 248 192)"
-			"material" "TOOLS/TOOLSNODRAW"
+			"material" "TOOLS/TOOLSINVISIBLE"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
