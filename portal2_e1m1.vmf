@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8973"
-	"mapversion" "513"
+	"mapversion" "533"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,13 +20,13 @@ viewsettings
 	"bSnapToGrid" "1"
 	"bShowGrid" "1"
 	"bShowLogicalGrid" "0"
-	"nGridSpacing" "32"
+	"nGridSpacing" "2"
 	"bShow3DGrid" "0"
 }
 world
 {
 	"id" "1"
-	"mapversion" "513"
+	"mapversion" "533"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -15220,6 +15220,372 @@ world
 }
 entity
 {
+	"id" "29050"
+	"classname" "light_spot"
+	"_cone" "45"
+	"_exponent" "1"
+	"_inner_cone" "30"
+	"_light" "255 255 255 200"
+	"_lighthdr" "-1 -1 -1 1"
+	"_lightscalehdr" "1"
+	"_quadratic_attn" "1"
+	"angles" "-15 15 0"
+	"pitch" "-15"
+	"origin" "569.642 1028.59 184.538"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "29073"
+	"classname" "func_detail"
+	solid
+	{
+		"id" "29071"
+		side
+		{
+			"id" "4115"
+			"plane" "(1370 -482 286) (1454 -482 286) (1454 -500 286)"
+			"material" "TOOLS/TOOLSINVISIBLE"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "4114"
+			"plane" "(1370 -500 218) (1454 -500 218) (1454 -482 218)"
+			"material" "TOOLS/TOOLSINVISIBLE"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "4113"
+			"plane" "(1370 -482 286) (1370 -500 286) (1370 -500 218)"
+			"material" "TOOLS/TOOLSINVISIBLE"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "4112"
+			"plane" "(1454 -482 218) (1454 -500 218) (1454 -500 286)"
+			"material" "TOOLS/TOOLSINVISIBLE"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "4111"
+			"plane" "(1454 -482 286) (1370 -482 286) (1370 -482 218)"
+			"material" "TOOLS/TOOLSINVISIBLE"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "4110"
+			"plane" "(1454 -500 218) (1370 -500 218) (1370 -500 286)"
+			"material" "TOOLS/TOOLSINVISIBLE"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 180 0"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	editor
+	{
+		"color" "0 180 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "29078"
+	"classname" "prop_static"
+	"angles" "0 270 0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"model" "models/props_office/coffee_mug_12.mdl"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"skin" "0"
+	"solid" "6"
+	"origin" "1392 -468 192"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1500]"
+	}
+}
+entity
+{
+	"id" "29109"
+	"classname" "prop_static"
+	"angles" "0 255 0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"model" "models/props_office/computer_1980_flatscreen.mdl"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"skin" "0"
+	"solid" "6"
+	"origin" "1416 -460 192"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1500]"
+	}
+}
+entity
+{
+	"id" "29138"
+	"classname" "prop_dynamic_override"
+	"angles" "0 270 0"
+	"animateeveryframe" "0"
+	"body" "0"
+	"disablebonefollowers" "0"
+	"disableflashlight" "0"
+	"disablereceiveshadows" "0"
+	"disableshadowdepth" "0"
+	"effects" "0"
+	"explodedamage" "0"
+	"explodemagnitude" "0"
+	"exploderadius" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"health" "0"
+	"holdanimation" "0"
+	"maxanimtime" "10"
+	"minanimtime" "5"
+	"minhealthdmg" "0"
+	"model" "models/props/toilet_body_reference.mdl"
+	"performancemode" "0"
+	"physdamagescale" "1.0"
+	"pressuredelay" "0"
+	"randomanimation" "0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "0"
+	"setbodygroup" "0"
+	"shadowcastdist" "0"
+	"shadowdepthnocache" "0"
+	"skin" "0"
+	"solid" "6"
+	"spawnflags" "0"
+	"startdisabled" "0"
+	"suppressanimsounds" "0"
+	"texframeindex" "0"
+	"updatechildren" "0"
+	"origin" "1412 -498 192"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1500]"
+	}
+}
+entity
+{
+	"id" "29175"
+	"classname" "prop_physics"
+	"allowfunnel" "1"
+	"angles" "0 255 0"
+	"body" "0"
+	"damagetoenablemotion" "0"
+	"damagetype" "0"
+	"disablereceiveshadows" "0"
+	"disablex360" "0"
+	"explodedamage" "0"
+	"explodemagnitude" "0"
+	"exploderadius" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"forcetoenablemotion" "0"
+	"health" "0"
+	"inertiascale" "1.0"
+	"massscale" "0"
+	"maxcpulevel" "0"
+	"maxgpulevel" "0"
+	"mincpulevel" "0"
+	"mingpulevel" "0"
+	"minhealthdmg" "0"
+	"model" "models/npcs/potatos/world_model/potatos_wmodel.mdl"
+	"nodamageforces" "0"
+	"performancemode" "0"
+	"physdamagescale" "1.0"
+	"pressuredelay" "0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "0"
+	"shadowcastdist" "0"
+	"skin" "0"
+	"solid" "6"
+	"spawnflags" "777"
+	"texframeindex" "0"
+	"origin" "1389.55 -475.502 192"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1500]"
+	}
+}
+entity
+{
+	"id" "29248"
+	"classname" "prop_physics_override"
+	"allowfunnel" "1"
+	"angles" "0 300 0"
+	"body" "0"
+	"damagetoenablemotion" "0"
+	"damagetype" "0"
+	"disablereceiveshadows" "0"
+	"explodedamage" "0"
+	"explodemagnitude" "0"
+	"exploderadius" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"forcetoenablemotion" "0"
+	"health" "0"
+	"inertiascale" "1.0"
+	"massscale" "0"
+	"minhealthdmg" "0"
+	"model" "models/props/radio_reference.mdl"
+	"nodamageforces" "0"
+	"performancemode" "0"
+	"physdamagescale" "0.1"
+	"pressuredelay" "0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "0"
+	"shadowcastdist" "0"
+	"skin" "0"
+	"solid" "6"
+	"spawnflags" "256"
+	"targetname" "radio1"
+	"texframeindex" "0"
+	connections
+	{
+		"OnPlayerPickup" "radio1_songStopSound0-1"
+		"OnPlayerPickup" "radio1_song_spookPlaySound0-1"
+	}
+	"origin" "1382 -452 192"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 2500]"
+	}
+}
+entity
+{
+	"id" "29279"
+	"classname" "ambient_generic"
+	"angles" "0 0 0"
+	"health" "10"
+	"message" "ambient/music/looping_radio_mix.wav"
+	"parentname" "radio1"
+	"pitch" "100"
+	"pitchstart" "100"
+	"radius" "1250"
+	"sourceentityname" "radio1"
+	"spawnflags" "0"
+	"targetname" "radio1_song"
+	"origin" "1382 -452 200"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 3500]"
+	}
+}
+entity
+{
+	"id" "29351"
+	"classname" "ambient_generic"
+	"angles" "0 0 0"
+	"health" "100000000"
+	"message" "props/explosions/explo_generic_med_02.wav"
+	"pitch" "100"
+	"pitchstart" "100"
+	"radius" "1250"
+	"spawnflags" "48"
+	"targetname" "jumpscare"
+	"origin" "1404.26 -420.372 201"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 4000]"
+	}
+}
+entity
+{
+	"id" "29467"
+	"classname" "ambient_generic"
+	"angles" "0 0 0"
+	"health" "10"
+	"message" "music/sp_a1_intro3_r1.wav"
+	"parentname" "radio1"
+	"pitch" "100"
+	"pitchstart" "100"
+	"radius" "1250"
+	"sourceentityname" "radio1"
+	"spawnflags" "16"
+	"targetname" "radio1_song_spook"
+	"origin" "1366 -452 200"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 3500]"
+	}
+}
+entity
+{
 	"id" "28562"
 	"classname" "func_instance"
 	"angles" "-0 0 0"
@@ -15726,7 +16092,7 @@ entity
 	"lip" "1"
 	"locked_sentence" "0"
 	"locked_sound" "0"
-	"movedir" "0 90 0"
+	"movedir" "0 -90 0"
 	"origin" "1462 -354 272"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
@@ -15742,6 +16108,7 @@ entity
 	connections
 	{
 		"OnPressed" "AutoInstance1-elev_door1Open0-1"
+		"OnPressed" "jumpscarePlaySound1-1"
 	}
 	solid
 	{
@@ -19374,7 +19741,7 @@ entity
 	"screenspacefade" "0"
 	"skin" "0"
 	"solid" "0"
-	"origin" "1416 -496 192"
+	"origin" "1416 -492 218"
 	editor
 	{
 		"color" "255 255 0"

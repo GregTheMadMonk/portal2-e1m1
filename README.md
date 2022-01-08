@@ -6,7 +6,7 @@ Source files for Valve Hammer Editor.
 - [x] Room 1 (Faith plate)
 - [x] Room 2 (Portal gun)
 - [ ] BTS-1 area - WIP
-- [ ] Room 3 (Test Chamber) - WIP
+- [x] Room 3 (Test Chamber)
 - [ ] Room 4 (Test Chamber)
 - [ ] BTS-2
 - [ ] Final Room
@@ -14,6 +14,4 @@ Source files for Valve Hammer Editor.
 ## Known Issues
 - [ ] Pillars in room 1 clip through walls
 - [ ] Faith plate sequence kind of makes no sense
-- [x] In Room 3 the button can be pressed without using a funnel
-- [x] In Room 3 glass models should have more variety
-- [x] In Room 3 big glass should be thinner (to make frames visible)
+- [ ] Catwalks are lit wierdly, probably need to place cubemaps in BTS area
