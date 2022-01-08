@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8973"
-	"mapversion" "508"
+	"mapversion" "511"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -26,7 +26,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "508"
+	"mapversion" "511"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -11924,7 +11924,7 @@ world
 		side
 		{
 			"id" "193"
-			"plane" "(1696 896 64) (1696 1024 64) (2080 1024 64)"
+			"plane" "(1920 896 64) (1920 1024 64) (2080 1024 64)"
 			"material" "METAL/METAL_MODULAR_FLOOR001"
 			"uaxis" "[1 0 0 -128] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
@@ -11935,7 +11935,7 @@ world
 		side
 		{
 			"id" "194"
-			"plane" "(1696 1024 32) (1696 896 32) (2080 896 32)"
+			"plane" "(1920 1024 32) (1920 896 32) (2080 896 32)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
@@ -11946,7 +11946,7 @@ world
 		side
 		{
 			"id" "195"
-			"plane" "(1696 896 32) (1696 1024 32) (1696 1024 64)"
+			"plane" "(1920 896 32) (1920 1024 32) (1920 1024 64)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -11968,7 +11968,7 @@ world
 		side
 		{
 			"id" "197"
-			"plane" "(1696 1024 32) (2080 1024 32) (2080 1024 64)"
+			"plane" "(1920 1024 32) (2080 1024 32) (2080 1024 64)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -11979,7 +11979,7 @@ world
 		side
 		{
 			"id" "198"
-			"plane" "(2080 896 32) (1696 896 32) (1696 896 64)"
+			"plane" "(2080 896 32) (1920 896 32) (1920 896 64)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"

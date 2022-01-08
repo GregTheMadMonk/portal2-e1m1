@@ -14,3 +14,6 @@ Source files for Valve Hammer Editor.
 ## Known Issues
 - [ ] Pillars in room 1 clip through walls
 - [ ] Faith plate sequence kind of makes no sense
+- [x] In Room 3 the button can be pressed without using a funnel
+- [x] In Room 3 glass models should have more variety
+- [x] In Room 3 big glass should be thinner (to make frames visible)
