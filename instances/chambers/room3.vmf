@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8973"
-	"mapversion" "382"
+	"mapversion" "384"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "382"
+	"mapversion" "384"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -13545,7 +13545,7 @@ entity
 	"id" "1844"
 	"classname" "func_instance"
 	"angles" "90 -0 0"
-	"file" "portal2_e1m1/instances/wall_pushout_256_nocap.vmf"
+	"file" "../wall_pushout_256_nocap.vmf"
 	"origin" "48 -96 -352"
 	editor
 	{
@@ -13583,7 +13583,7 @@ entity
 	"id" "1970"
 	"classname" "func_instance"
 	"angles" "90 -0 0"
-	"file" "portal2_e1m1/instances/wall_pushout_256_nocap.vmf"
+	"file" "../wall_pushout_256_nocap.vmf"
 	"origin" "48 96 -352"
 	editor
 	{
