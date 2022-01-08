@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8973"
-	"mapversion" "384"
+	"mapversion" "386"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -14,13 +14,13 @@ viewsettings
 	"bSnapToGrid" "1"
 	"bShowGrid" "1"
 	"bShowLogicalGrid" "0"
-	"nGridSpacing" "2"
+	"nGridSpacing" "16"
 	"bShow3DGrid" "0"
 }
 world
 {
 	"id" "1"
-	"mapversion" "384"
+	"mapversion" "386"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -8771,6 +8771,21 @@ world
 }
 entity
 {
+	"id" "15459"
+	"classname" "func_instance"
+	"angles" "-0 -90 0"
+	"file" "instances/gameplay/fizzler_black_dirty_128x128.vmf"
+	"origin" "528 -192 -224"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 8000]"
+	}
+}
+entity
+{
 	"id" "13839"
 	"classname" "prop_static"
 	"angles" "0 90 0"
@@ -13545,7 +13560,7 @@ entity
 	"id" "1844"
 	"classname" "func_instance"
 	"angles" "90 -0 0"
-	"file" "../wall_pushout_256_nocap.vmf"
+	"file" "./instances/wall_pushout_256_nocap.vmf"
 	"origin" "48 -96 -352"
 	editor
 	{
@@ -13583,7 +13598,7 @@ entity
 	"id" "1970"
 	"classname" "func_instance"
 	"angles" "90 -0 0"
-	"file" "../wall_pushout_256_nocap.vmf"
+	"file" "./instances/wall_pushout_256_nocap.vmf"
 	"origin" "48 96 -352"
 	editor
 	{
