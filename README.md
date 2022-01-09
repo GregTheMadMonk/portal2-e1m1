@@ -12,6 +12,6 @@ Source files for Valve Hammer Editor.
 - [ ] Final Room
 
 ## Known Issues
-- [ ] Pillars in room 1 clip through walls
+- [ ] Catwalk stairs clip into catwalk
 - [ ] Faith plate sequence kind of makes no sense
 - [ ] Catwalks are lit wierdly, probably need to place cubemaps in BTS area
