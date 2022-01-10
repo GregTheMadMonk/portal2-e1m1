@@ -14,4 +14,9 @@ Source files for Valve Hammer Editor.
 ## Known Issues
 - [ ] Catwalk stairs clip into catwalk
 - [ ] Faith plate sequence kind of makes no sense
-- [ ] Catwalks are lit wierdly, probably need to place cubemaps in BTS area
+
+
+## Priorities
+1. Rooms, playable areas
+2. BTS etc.
+3. Decor, polishing etc.

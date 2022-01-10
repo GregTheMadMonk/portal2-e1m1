@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8973"
-	"mapversion" "668"
+	"mapversion" "734"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -80,7 +80,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "668"
+	"mapversion" "734"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -2683,7 +2683,7 @@ world
 			"plane" "(1184 436 192) (1184 148 192) (1184 148 134)"
 			"material" "PROPS/PLASTICWALL003A"
 			"uaxis" "[0 1 0 48] 0.25"
-			"vaxis" "[0 0 -1 -215] 0.25"
+			"vaxis" "[0 0 -1 -983] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -2694,7 +2694,7 @@ world
 			"plane" "(1664 436 134) (1664 148 134) (1664 148 192)"
 			"material" "PROPS/PLASTICWALL003A"
 			"uaxis" "[0 1 0 48] 0.25"
-			"vaxis" "[0 0 -1 -215] 0.25"
+			"vaxis" "[0 0 -1 -983] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -2704,8 +2704,8 @@ world
 			"id" "4006"
 			"plane" "(1664 436 192) (1184 436 192) (1184 436 134)"
 			"material" "PROPS/PLASTICWALL003A"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 0 -1 -215] 0.25"
+			"uaxis" "[1 0 0 48] 0.25"
+			"vaxis" "[0 0 -1 -983] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -2715,8 +2715,8 @@ world
 			"id" "4007"
 			"plane" "(1664 148 134) (1184 148 134) (1184 148 192)"
 			"material" "PROPS/PLASTICWALL003A"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 0 -1 -215] 0.25"
+			"uaxis" "[1 0 0 48] 0.25"
+			"vaxis" "[0 0 -1 -983] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -2737,8 +2737,8 @@ world
 			"id" "4043"
 			"plane" "(1184 436 384) (1664 436 384) (1664 148 384)"
 			"material" "PROPS/PLASTICWALL003A"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 -1 0 -48] 0.25"
+			"uaxis" "[1 0 0 48] 0.25"
+			"vaxis" "[0 -1 0 -983] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -2760,7 +2760,7 @@ world
 			"plane" "(1184 436 384) (1184 148 384) (1184 148 320)"
 			"material" "PROPS/PLASTICWALL003A"
 			"uaxis" "[0 1 0 48] 0.25"
-			"vaxis" "[0 0 -1 -471] 0.25"
+			"vaxis" "[0 0 -1 -983] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -2771,7 +2771,7 @@ world
 			"plane" "(1664 436 320) (1664 148 320) (1664 148 384)"
 			"material" "PROPS/PLASTICWALL003A"
 			"uaxis" "[0 1 0 48] 0.25"
-			"vaxis" "[0 0 -1 -471] 0.25"
+			"vaxis" "[0 0 -1 -983] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -2781,8 +2781,8 @@ world
 			"id" "4039"
 			"plane" "(1664 436 384) (1184 436 384) (1184 436 320)"
 			"material" "PROPS/PLASTICWALL003A"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 0 -1 -471] 0.25"
+			"uaxis" "[1 0 0 48] 0.25"
+			"vaxis" "[0 0 -1 -983] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -2792,8 +2792,8 @@ world
 			"id" "4038"
 			"plane" "(1664 148 320) (1184 148 320) (1184 148 384)"
 			"material" "PROPS/PLASTICWALL003A"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 0 -1 -471] 0.25"
+			"uaxis" "[1 0 0 48] 0.25"
+			"vaxis" "[0 0 -1 -983] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -2858,7 +2858,7 @@ world
 			"id" "4051"
 			"plane" "(1664 436 326) (1648 436 326) (1648 436 192)"
 			"material" "PROPS/PLASTICWALL003A"
-			"uaxis" "[1 0 0 0] 0.25"
+			"uaxis" "[1 0 0 48] 0.25"
 			"vaxis" "[0 0 -1 -983] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -2869,7 +2869,7 @@ world
 			"id" "4050"
 			"plane" "(1664 148 192) (1648 148 192) (1648 148 326)"
 			"material" "PROPS/PLASTICWALL003A"
-			"uaxis" "[1 0 0 0] 0.25"
+			"uaxis" "[1 0 0 48] 0.25"
 			"vaxis" "[0 0 -1 -983] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -2935,7 +2935,7 @@ world
 			"id" "4075"
 			"plane" "(1200 436 326) (1184 436 326) (1184 436 192)"
 			"material" "PROPS/PLASTICWALL003A"
-			"uaxis" "[1 0 0 832] 0.25"
+			"uaxis" "[1 0 0 48] 0.25"
 			"vaxis" "[0 0 -1 -983] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -2946,7 +2946,7 @@ world
 			"id" "4074"
 			"plane" "(1200 148 192) (1184 148 192) (1184 148 326)"
 			"material" "PROPS/PLASTICWALL003A"
-			"uaxis" "[1 0 0 832] 0.25"
+			"uaxis" "[1 0 0 48] 0.25"
 			"vaxis" "[0 0 -1 -983] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -3023,7 +3023,7 @@ world
 			"id" "4086"
 			"plane" "(1372 148 192) (1200 148 192) (1200 148 326)"
 			"material" "PROPS/PLASTICWALL003A"
-			"uaxis" "[1 0 0 768] 0.25"
+			"uaxis" "[1 0 0 48] 0.25"
 			"vaxis" "[0 0 -1 -983] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -3100,7 +3100,7 @@ world
 			"id" "4098"
 			"plane" "(1648 148 192) (1456 148 192) (1456 148 326)"
 			"material" "PROPS/PLASTICWALL003A"
-			"uaxis" "[1 0 0 -336] 0.25"
+			"uaxis" "[1 0 0 48] 0.25"
 			"vaxis" "[0 0 -1 -983] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -13763,26 +13763,6 @@ world
 	}
 	group
 	{
-		"id" "33883"
-		editor
-		{
-			"color" "220 220 220"
-			"visgroupshown" "1"
-			"visgroupautoshown" "1"
-		}
-	}
-	group
-	{
-		"id" "34117"
-		editor
-		{
-			"color" "220 220 220"
-			"visgroupshown" "1"
-			"visgroupautoshown" "1"
-		}
-	}
-	group
-	{
 		"id" "24873"
 		editor
 		{
@@ -14057,6 +14037,1080 @@ world
 }
 entity
 {
+	"id" "38771"
+	"classname" "prop_static"
+	"angles" "0 270 0"
+	"disableselfshadowing" "0"
+	"disableshadows" "0"
+	"disablevertexlighting" "0"
+	"disablex360" "0"
+	"drawinfastreflection" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"ignorenormals" "0"
+	"maxcpulevel" "0"
+	"maxdxlevel" "0"
+	"maxgpulevel" "0"
+	"mincpulevel" "0"
+	"mindxlevel" "0"
+	"mingpulevel" "0"
+	"model" "models/props_bts/hanging_walkway_256a.mdl"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"skin" "0"
+	"solid" "6"
+	"origin" "1224 692 448"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupid" "41"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 15000]"
+	}
+}
+entity
+{
+	"id" "38779"
+	"classname" "prop_static"
+	"angles" "0 270 0"
+	"disableselfshadowing" "0"
+	"disableshadows" "0"
+	"disablevertexlighting" "0"
+	"disablex360" "0"
+	"drawinfastreflection" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"ignorenormals" "0"
+	"maxcpulevel" "0"
+	"maxdxlevel" "0"
+	"maxgpulevel" "0"
+	"mincpulevel" "0"
+	"mindxlevel" "0"
+	"mingpulevel" "0"
+	"model" "models/props_bts/hanging_walkway_256a.mdl"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"skin" "0"
+	"solid" "6"
+	"origin" "1736 692 448"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupid" "41"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 15000]"
+	}
+}
+entity
+{
+	"id" "38806"
+	"classname" "prop_static"
+	"angles" "0 270 0"
+	"disableselfshadowing" "0"
+	"disableshadows" "0"
+	"disablevertexlighting" "0"
+	"disablex360" "0"
+	"drawinfastreflection" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"ignorenormals" "0"
+	"maxcpulevel" "0"
+	"maxdxlevel" "0"
+	"maxgpulevel" "0"
+	"mincpulevel" "0"
+	"mindxlevel" "0"
+	"mingpulevel" "0"
+	"model" "models/props_bts/hanging_walkway_256a.mdl"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"skin" "0"
+	"solid" "6"
+	"origin" "1030 692 64"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupid" "41"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 15000]"
+	}
+}
+entity
+{
+	"id" "39111"
+	"classname" "func_detail"
+	solid
+	{
+		"id" "39112"
+		side
+		{
+			"id" "4739"
+			"plane" "(1024 320 2304) (960 320 2304) (960 384 2304)"
+			"material" "METAL/METALBEAM_BTS_001A"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[1 0 0 -124] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "4738"
+			"plane" "(1024 384 -2048) (960 384 -2048) (960 320 -2048)"
+			"material" "METAL/METALBEAM_BTS_001A"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[1 0 0 -124] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "4737"
+			"plane" "(1024 320 -2048) (960 320 -2048) (960 320 2304)"
+			"material" "METAL/METALBEAM_BTS_001A"
+			"uaxis" "[-1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "4736"
+			"plane" "(960 384 -2048) (1024 384 -2048) (1024 384 2304)"
+			"material" "METAL/METALBEAM_BTS_001A"
+			"uaxis" "[-1 0 0 -121.263] 0.38"
+			"vaxis" "[0 0 -1 499] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "4735"
+			"plane" "(960 320 -2048) (960 384 -2048) (960 384 2304)"
+			"material" "METAL/METALBEAM_BTS_001A"
+			"uaxis" "[0 1 0 107.789] 0.19"
+			"vaxis" "[0 0 -1 499] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "4734"
+			"plane" "(1024 384 -2048) (1024 320 -2048) (1024 320 2304)"
+			"material" "METAL/METALBEAM_BTS_001A"
+			"uaxis" "[0 1 0 107.789] 0.19"
+			"vaxis" "[0 0 -1 499] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 180 0"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	editor
+	{
+		"color" "0 180 0"
+		"visgroupid" "39"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 15500]"
+	}
+}
+entity
+{
+	"id" "39119"
+	"classname" "prop_static"
+	"angles" "0 0 0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"model" "models/props_bts/pillar_joint_64x64_01b.mdl"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"skin" "0"
+	"solid" "6"
+	"origin" "992 352 256"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
+	"id" "39245"
+	"classname" "func_detail"
+	solid
+	{
+		"id" "39246"
+		side
+		{
+			"id" "4751"
+			"plane" "(608 336 224) (608 368 224) (608 368 288)"
+			"material" "METAL/METALBEAM_BTS_001A"
+			"uaxis" "[0 0 1 -128] 0.25"
+			"vaxis" "[0 -1 0 132] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "4750"
+			"plane" "(1184 336 288) (1184 368 288) (1184 368 224)"
+			"material" "METAL/METALBEAM_BTS_001A"
+			"uaxis" "[0 0 1 -128] 0.25"
+			"vaxis" "[0 -1 0 132] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "4749"
+			"plane" "(1184 336 224) (1184 368 224) (608 368 224)"
+			"material" "METAL/METALBEAM_BTS_001A"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[1 0 0 832] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "4748"
+			"plane" "(1184 368 288) (1184 336 288) (608 336 288)"
+			"material" "METAL/METALBEAM_BTS_001A"
+			"uaxis" "[0 1 0 -74.1053] 0.38"
+			"vaxis" "[1 0 0 307] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "4747"
+			"plane" "(1184 368 224) (1184 368 288) (608 368 288)"
+			"material" "METAL/METALBEAM_BTS_001A"
+			"uaxis" "[0 0 1 -154.947] 0.19"
+			"vaxis" "[1 0 0 307] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "4746"
+			"plane" "(1184 336 288) (1184 336 224) (608 336 224)"
+			"material" "METAL/METALBEAM_BTS_001A"
+			"uaxis" "[0 0 1 -154.947] 0.19"
+			"vaxis" "[1 0 0 307] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 180 0"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	editor
+	{
+		"color" "0 180 0"
+		"visgroupid" "39"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 15500]"
+	}
+}
+entity
+{
+	"id" "37086"
+	"classname" "prop_static"
+	"angles" "0 90 0"
+	"disableselfshadowing" "0"
+	"disableshadows" "0"
+	"disablevertexlighting" "0"
+	"disablex360" "0"
+	"drawinfastreflection" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"ignorenormals" "0"
+	"maxcpulevel" "0"
+	"maxdxlevel" "0"
+	"maxgpulevel" "0"
+	"mincpulevel" "0"
+	"mindxlevel" "0"
+	"mingpulevel" "0"
+	"model" "models/props_bts/hanging_walkway_corner.mdl"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"skin" "0"
+	"solid" "6"
+	"origin" "840 564 448"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupid" "41"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 15000]"
+	}
+}
+entity
+{
+	"id" "37126"
+	"classname" "prop_static"
+	"angles" "0 90 0"
+	"disableselfshadowing" "0"
+	"disableshadows" "0"
+	"disablevertexlighting" "0"
+	"disablex360" "0"
+	"drawinfastreflection" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"ignorenormals" "0"
+	"maxcpulevel" "0"
+	"maxdxlevel" "0"
+	"maxgpulevel" "0"
+	"mincpulevel" "0"
+	"mindxlevel" "0"
+	"mingpulevel" "0"
+	"model" "models/props_bts/hanging_walkway_32b.mdl"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"skin" "0"
+	"solid" "6"
+	"origin" "920 564 448"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupid" "41"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 15000]"
+	}
+}
+entity
+{
+	"id" "37153"
+	"classname" "prop_static"
+	"angles" "0 0 0"
+	"disableselfshadowing" "0"
+	"disableshadows" "0"
+	"disablevertexlighting" "0"
+	"disablex360" "0"
+	"drawinfastreflection" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"ignorenormals" "0"
+	"maxcpulevel" "0"
+	"maxdxlevel" "0"
+	"maxgpulevel" "0"
+	"mincpulevel" "0"
+	"mindxlevel" "0"
+	"mingpulevel" "0"
+	"model" "models/props_bts/hanging_walkway_corner.mdl"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"skin" "0"
+	"solid" "6"
+	"origin" "840 692 448"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupid" "41"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 15000]"
+	}
+}
+entity
+{
+	"id" "37237"
+	"classname" "prop_static"
+	"angles" "0 270 0"
+	"disableselfshadowing" "0"
+	"disableshadows" "0"
+	"disablevertexlighting" "0"
+	"disablex360" "0"
+	"drawinfastreflection" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"ignorenormals" "0"
+	"maxcpulevel" "0"
+	"maxdxlevel" "0"
+	"maxgpulevel" "0"
+	"mincpulevel" "0"
+	"mindxlevel" "0"
+	"mingpulevel" "0"
+	"model" "models/props_bts/hanging_walkway_256a.mdl"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"skin" "0"
+	"solid" "6"
+	"origin" "968 692 448"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupid" "41"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 15000]"
+	}
+}
+entity
+{
+	"id" "37256"
+	"classname" "prop_static"
+	"angles" "0 270 0"
+	"disableselfshadowing" "0"
+	"disableshadows" "0"
+	"disablevertexlighting" "0"
+	"disablex360" "0"
+	"drawinfastreflection" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"ignorenormals" "0"
+	"maxcpulevel" "0"
+	"maxdxlevel" "0"
+	"maxgpulevel" "0"
+	"mincpulevel" "0"
+	"mindxlevel" "0"
+	"mingpulevel" "0"
+	"model" "models/props_bts/hanging_walkway_256a.mdl"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"skin" "0"
+	"solid" "6"
+	"origin" "1480 692 448"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupid" "41"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 15000]"
+	}
+}
+entity
+{
+	"id" "37833"
+	"classname" "prop_static"
+	"angles" "0 270 0"
+	"disableselfshadowing" "0"
+	"disableshadows" "0"
+	"disablevertexlighting" "0"
+	"disablex360" "0"
+	"drawinfastreflection" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"ignorenormals" "0"
+	"maxcpulevel" "0"
+	"maxdxlevel" "0"
+	"maxgpulevel" "0"
+	"mincpulevel" "0"
+	"mindxlevel" "0"
+	"mingpulevel" "0"
+	"model" "models/props_bts/hanging_stair_64.mdl"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"skin" "0"
+	"solid" "6"
+	"origin" "1016 468 224"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupid" "41"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 15000]"
+	}
+}
+entity
+{
+	"id" "37916"
+	"classname" "prop_static"
+	"angles" "0 90 0"
+	"disableselfshadowing" "0"
+	"disableshadows" "0"
+	"disablevertexlighting" "0"
+	"disablex360" "0"
+	"drawinfastreflection" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"ignorenormals" "0"
+	"maxcpulevel" "0"
+	"maxdxlevel" "0"
+	"maxgpulevel" "0"
+	"mincpulevel" "0"
+	"mindxlevel" "0"
+	"mingpulevel" "0"
+	"model" "models/props_bts/hanging_stair_128.mdl"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"skin" "0"
+	"solid" "6"
+	"origin" "1064 564 128"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupid" "41"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 15000]"
+	}
+}
+entity
+{
+	"id" "37971"
+	"classname" "prop_static"
+	"angles" "0 90 0"
+	"disableselfshadowing" "0"
+	"disableshadows" "0"
+	"disablevertexlighting" "0"
+	"disablex360" "0"
+	"drawinfastreflection" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"ignorenormals" "0"
+	"maxcpulevel" "0"
+	"maxdxlevel" "0"
+	"maxgpulevel" "0"
+	"mincpulevel" "0"
+	"mindxlevel" "0"
+	"mingpulevel" "0"
+	"model" "models/props_bts/hanging_stair_landing_a.mdl"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"skin" "0"
+	"solid" "6"
+	"origin" "894 516 192"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupid" "41"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 15000]"
+	}
+}
+entity
+{
+	"id" "38042"
+	"classname" "prop_static"
+	"angles" "0 90 0"
+	"disableselfshadowing" "0"
+	"disableshadows" "0"
+	"disablevertexlighting" "0"
+	"disablex360" "0"
+	"drawinfastreflection" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"ignorenormals" "0"
+	"maxcpulevel" "0"
+	"maxdxlevel" "0"
+	"maxgpulevel" "0"
+	"mincpulevel" "0"
+	"mindxlevel" "0"
+	"mingpulevel" "0"
+	"model" "models/props_bts/hanging_stair_64.mdl"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"skin" "0"
+	"solid" "6"
+	"origin" "1016 564 288"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupid" "41"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 15000]"
+	}
+}
+entity
+{
+	"id" "38046"
+	"classname" "prop_static"
+	"angles" "0 270 0"
+	"disableselfshadowing" "0"
+	"disableshadows" "0"
+	"disablevertexlighting" "0"
+	"disablex360" "0"
+	"drawinfastreflection" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"ignorenormals" "0"
+	"maxcpulevel" "0"
+	"maxdxlevel" "0"
+	"maxgpulevel" "0"
+	"mincpulevel" "0"
+	"mindxlevel" "0"
+	"mingpulevel" "0"
+	"model" "models/props_bts/hanging_stair_landing_a.mdl"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"skin" "0"
+	"solid" "6"
+	"origin" "1138 516 256"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupid" "41"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 15000]"
+	}
+}
+entity
+{
+	"id" "38122"
+	"classname" "prop_static"
+	"angles" "0 270 0"
+	"disableselfshadowing" "0"
+	"disableshadows" "0"
+	"disablevertexlighting" "0"
+	"disablex360" "0"
+	"drawinfastreflection" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"ignorenormals" "0"
+	"maxcpulevel" "0"
+	"maxdxlevel" "0"
+	"maxgpulevel" "0"
+	"mincpulevel" "0"
+	"mindxlevel" "0"
+	"mingpulevel" "0"
+	"model" "models/props_bts/hanging_stair_64.mdl"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"skin" "0"
+	"solid" "6"
+	"origin" "1016 468 352"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupid" "41"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 15000]"
+	}
+}
+entity
+{
+	"id" "38126"
+	"classname" "prop_static"
+	"angles" "0 90 0"
+	"disableselfshadowing" "0"
+	"disableshadows" "0"
+	"disablevertexlighting" "0"
+	"disablex360" "0"
+	"drawinfastreflection" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"ignorenormals" "0"
+	"maxcpulevel" "0"
+	"maxdxlevel" "0"
+	"maxgpulevel" "0"
+	"mincpulevel" "0"
+	"mindxlevel" "0"
+	"mingpulevel" "0"
+	"model" "models/props_bts/hanging_stair_landing_a.mdl"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"skin" "0"
+	"solid" "6"
+	"origin" "894 516 320"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupid" "41"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 15000]"
+	}
+}
+entity
+{
+	"id" "38138"
+	"classname" "prop_static"
+	"angles" "0 270 0"
+	"disableselfshadowing" "0"
+	"disableshadows" "0"
+	"disablevertexlighting" "0"
+	"disablex360" "0"
+	"drawinfastreflection" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"ignorenormals" "0"
+	"maxcpulevel" "0"
+	"maxdxlevel" "0"
+	"maxgpulevel" "0"
+	"mincpulevel" "0"
+	"mindxlevel" "0"
+	"mingpulevel" "0"
+	"model" "models/props_bts/hanging_stair_landing_a.mdl"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"skin" "0"
+	"solid" "6"
+	"origin" "1138 516 384"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupid" "41"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 15000]"
+	}
+}
+entity
+{
+	"id" "38142"
+	"classname" "prop_static"
+	"angles" "0 90 0"
+	"disableselfshadowing" "0"
+	"disableshadows" "0"
+	"disablevertexlighting" "0"
+	"disablex360" "0"
+	"drawinfastreflection" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"ignorenormals" "0"
+	"maxcpulevel" "0"
+	"maxdxlevel" "0"
+	"maxgpulevel" "0"
+	"mincpulevel" "0"
+	"mindxlevel" "0"
+	"mingpulevel" "0"
+	"model" "models/props_bts/hanging_stair_64.mdl"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"skin" "0"
+	"solid" "6"
+	"origin" "1016 564 416"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupid" "41"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 15000]"
+	}
+}
+entity
+{
+	"id" "35629"
+	"classname" "prop_static"
+	"angles" "0 270 0"
+	"disableselfshadowing" "0"
+	"disableshadows" "0"
+	"disablevertexlighting" "0"
+	"disablex360" "0"
+	"drawinfastreflection" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"ignorenormals" "0"
+	"maxcpulevel" "0"
+	"maxdxlevel" "0"
+	"maxgpulevel" "0"
+	"mincpulevel" "0"
+	"mindxlevel" "0"
+	"mingpulevel" "0"
+	"model" "models/props_bts/hanging_walkway_64c.mdl"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"skin" "0"
+	"solid" "6"
+	"origin" "1318 20 192"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupid" "41"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 15000]"
+	}
+}
+entity
+{
+	"id" "35693"
+	"classname" "prop_static"
+	"angles" "0 270 0"
+	"disableselfshadowing" "0"
+	"disableshadows" "0"
+	"disablevertexlighting" "0"
+	"disablex360" "0"
+	"drawinfastreflection" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"ignorenormals" "0"
+	"maxcpulevel" "0"
+	"maxdxlevel" "0"
+	"maxgpulevel" "0"
+	"mincpulevel" "0"
+	"mindxlevel" "0"
+	"mingpulevel" "0"
+	"model" "models/props_bts/hanging_walkway_32a.mdl"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"skin" "0"
+	"solid" "6"
+	"origin" "822 404 64"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupid" "41"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 15000]"
+	}
+}
+entity
+{
+	"id" "35766"
+	"classname" "prop_static"
+	"angles" "0 180 0"
+	"disableselfshadowing" "0"
+	"disableshadows" "0"
+	"disablevertexlighting" "0"
+	"disablex360" "0"
+	"drawinfastreflection" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"ignorenormals" "0"
+	"maxcpulevel" "0"
+	"maxdxlevel" "0"
+	"maxgpulevel" "0"
+	"mincpulevel" "0"
+	"mindxlevel" "0"
+	"mingpulevel" "0"
+	"model" "models/props_bts/hanging_walkway_128a.mdl"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"skin" "0"
+	"solid" "6"
+	"origin" "902 564 64"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupid" "41"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 15000]"
+	}
+}
+entity
+{
+	"id" "35812"
+	"classname" "prop_static"
+	"angles" "0 180 0"
+	"disableselfshadowing" "0"
+	"disableshadows" "0"
+	"disablevertexlighting" "0"
+	"disablex360" "0"
+	"drawinfastreflection" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"ignorenormals" "0"
+	"maxcpulevel" "0"
+	"maxdxlevel" "0"
+	"maxgpulevel" "0"
+	"mincpulevel" "0"
+	"mindxlevel" "0"
+	"mingpulevel" "0"
+	"model" "models/props_bts/hanging_walkway_32a.mdl"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"skin" "0"
+	"solid" "6"
+	"origin" "902 484 64"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupid" "41"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 15000]"
+	}
+}
+entity
+{
+	"id" "35839"
+	"classname" "prop_static"
+	"angles" "0 0 0"
+	"disableselfshadowing" "0"
+	"disableshadows" "0"
+	"disablevertexlighting" "0"
+	"disablex360" "0"
+	"drawinfastreflection" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"ignorenormals" "0"
+	"maxcpulevel" "0"
+	"maxdxlevel" "0"
+	"maxgpulevel" "0"
+	"mincpulevel" "0"
+	"mindxlevel" "0"
+	"mingpulevel" "0"
+	"model" "models/props_bts/hanging_walkway_corner.mdl"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"skin" "0"
+	"solid" "6"
+	"origin" "902 692 64"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupid" "41"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 15000]"
+	}
+}
+entity
+{
+	"id" "36041"
+	"classname" "prop_static"
+	"angles" "0 270 0"
+	"disableselfshadowing" "0"
+	"disableshadows" "0"
+	"disablevertexlighting" "0"
+	"disablex360" "0"
+	"drawinfastreflection" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"ignorenormals" "0"
+	"maxcpulevel" "0"
+	"maxdxlevel" "0"
+	"maxgpulevel" "0"
+	"mincpulevel" "0"
+	"mindxlevel" "0"
+	"mingpulevel" "0"
+	"model" "models/props_bts/hanging_walkway_t.mdl"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"skin" "0"
+	"solid" "6"
+	"origin" "1286 692 64"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupid" "41"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 15000]"
+	}
+}
+entity
+{
+	"id" "36083"
+	"classname" "prop_static"
+	"angles" "0 180 0"
+	"disableselfshadowing" "0"
+	"disableshadows" "0"
+	"disablevertexlighting" "0"
+	"disablex360" "0"
+	"drawinfastreflection" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"ignorenormals" "0"
+	"maxcpulevel" "0"
+	"maxdxlevel" "0"
+	"maxgpulevel" "0"
+	"mincpulevel" "0"
+	"mindxlevel" "0"
+	"mingpulevel" "0"
+	"model" "models/props_bts/hanging_walkway_corner.mdl"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"skin" "0"
+	"solid" "6"
+	"origin" "1286 564 64"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupid" "41"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 15000]"
+	}
+}
+entity
+{
+	"id" "36345"
+	"classname" "prop_static"
+	"angles" "0 270 0"
+	"disableselfshadowing" "0"
+	"disableshadows" "0"
+	"disablevertexlighting" "0"
+	"disablex360" "0"
+	"drawinfastreflection" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"ignorenormals" "0"
+	"maxcpulevel" "0"
+	"maxdxlevel" "0"
+	"maxgpulevel" "0"
+	"mincpulevel" "0"
+	"mindxlevel" "0"
+	"mingpulevel" "0"
+	"model" "models/catwalk_destruction/hanging_walkway_32b_lowres.mdl"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"skin" "0"
+	"solid" "6"
+	"origin" "1206 564 64"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupid" "41"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 15000]"
+	}
+}
+entity
+{
 	"id" "32449"
 	"classname" "prop_static"
 	"angles" "0 90 0"
@@ -14223,7 +15277,7 @@ entity
 	"origin" "638 1504 -6"
 	editor
 	{
-		"color" "0 178 219"
+		"color" "255 255 0"
 		"visgroupid" "41"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
@@ -14293,7 +15347,7 @@ entity
 	"origin" "510 1504 -6"
 	editor
 	{
-		"color" "0 236 133"
+		"color" "255 255 0"
 		"visgroupid" "41"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
@@ -14398,7 +15452,7 @@ entity
 	"origin" "414 1504 -6"
 	editor
 	{
-		"color" "0 236 133"
+		"color" "255 255 0"
 		"visgroupid" "41"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
@@ -14433,7 +15487,7 @@ entity
 	"origin" "372 1504 64"
 	editor
 	{
-		"color" "0 236 133"
+		"color" "255 255 0"
 		"visgroupid" "41"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
@@ -14468,7 +15522,7 @@ entity
 	"origin" "766 1636 64"
 	editor
 	{
-		"color" "0 236 133"
+		"color" "255 255 0"
 		"visgroupid" "41"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
@@ -14503,7 +15557,7 @@ entity
 	"origin" "766 1600 -6"
 	editor
 	{
-		"color" "0 236 133"
+		"color" "255 255 0"
 		"visgroupid" "41"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
@@ -16558,7 +17612,7 @@ entity
 		"id" "27190"
 		side
 		{
-			"id" "4655"
+			"id" "4757"
 			"plane" "(0 -1024 -1024) (0 1024 -1024) (2560 1024 -1024)"
 			"material" "PROPS/PLASTICWALL003A"
 			"uaxis" "[1 0 0 0] 0.25"
@@ -16569,7 +17623,7 @@ entity
 		}
 		side
 		{
-			"id" "4654"
+			"id" "4756"
 			"plane" "(0 1024 -2048) (0 -1024 -2048) (2560 -1024 -2048)"
 			"material" "PROPS/PLASTICWALL003A"
 			"uaxis" "[1 0 0 0] 0.25"
@@ -16580,7 +17634,7 @@ entity
 		}
 		side
 		{
-			"id" "4653"
+			"id" "4755"
 			"plane" "(0 -1024 -2048) (0 1024 -2048) (0 1024 -1024)"
 			"material" "PROPS/PLASTICWALL003A"
 			"uaxis" "[0 1 0 0] 0.25"
@@ -16591,7 +17645,7 @@ entity
 		}
 		side
 		{
-			"id" "4652"
+			"id" "4754"
 			"plane" "(2560 1024 -2048) (2560 -1024 -2048) (2560 -1024 -1024)"
 			"material" "PROPS/PLASTICWALL003A"
 			"uaxis" "[0 1 0 0] 0.25"
@@ -16602,7 +17656,7 @@ entity
 		}
 		side
 		{
-			"id" "4651"
+			"id" "4753"
 			"plane" "(0 1024 -2048) (2560 1024 -2048) (2560 1024 -1024)"
 			"material" "PROPS/PLASTICWALL003A"
 			"uaxis" "[1 0 0 0] 0.25"
@@ -16613,7 +17667,7 @@ entity
 		}
 		side
 		{
-			"id" "4650"
+			"id" "4752"
 			"plane" "(2560 -1024 -2048) (0 -1024 -2048) (0 -1024 -1024)"
 			"material" "PROPS/PLASTICWALL003A"
 			"uaxis" "[1 0 0 0] 0.25"
@@ -18971,7 +20025,7 @@ entity
 	"rendercolor" "255 255 255"
 	"skin" "0"
 	"solid" "6"
-	"origin" "998 20 64"
+	"origin" "902 20 64"
 	editor
 	{
 		"color" "255 255 0"
@@ -19257,7 +20311,7 @@ entity
 	"mincpulevel" "0"
 	"mindxlevel" "0"
 	"mingpulevel" "0"
-	"model" "models/props_bts/hanging_walkway_256a.mdl"
+	"model" "models/props_bts/hanging_walkway_128b.mdl"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
 	"skin" "0"
@@ -19297,7 +20351,7 @@ entity
 	"rendercolor" "255 255 255"
 	"skin" "0"
 	"solid" "6"
-	"origin" "1094 20 64"
+	"origin" "998 20 64"
 	editor
 	{
 		"color" "255 255 0"
@@ -19332,7 +20386,7 @@ entity
 	"rendercolor" "255 255 255"
 	"skin" "0"
 	"solid" "6"
-	"origin" "1254 20 128"
+	"origin" "1158 20 128"
 	editor
 	{
 		"color" "255 255 0"
@@ -19402,7 +20456,7 @@ entity
 	"rendercolor" "255 255 255"
 	"skin" "0"
 	"solid" "6"
-	"origin" "998 404 64"
+	"origin" "902 404 64"
 	editor
 	{
 		"color" "255 255 0"
@@ -19437,7 +20491,7 @@ entity
 	"rendercolor" "255 255 255"
 	"skin" "0"
 	"solid" "6"
-	"origin" "998 276 64"
+	"origin" "902 276 64"
 	editor
 	{
 		"color" "255 255 0"
