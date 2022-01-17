@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8973"
-	"mapversion" "529"
+	"mapversion" "536"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "529"
+	"mapversion" "536"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -12279,7 +12279,7 @@ entity
 	"id" "17975"
 	"classname" "func_instance"
 	"angles" "90 90 0"
-	"file" "portal2_e1m1/instances/light_panel_32_cool_high_dynamic.vmf"
+	"file" "./instances/light_panel_32_cool_high_dynamic.vmf"
 	"targetname" "chamber_lights_3"
 	"origin" "592 -128 288"
 	editor
@@ -12295,7 +12295,7 @@ entity
 	"id" "18265"
 	"classname" "func_instance"
 	"angles" "90 90 0"
-	"file" "portal2_e1m1/instances/light_panel_32_cool_high_dynamic.vmf"
+	"file" "./instances/light_panel_32_cool_high_dynamic.vmf"
 	"targetname" "chamber_lights_3"
 	"origin" "592 128 288"
 	editor
@@ -12311,7 +12311,7 @@ entity
 	"id" "18385"
 	"classname" "func_instance"
 	"angles" "90 90 0"
-	"file" "portal2_e1m1/instances/light_panel_32_cool_high_dynamic.vmf"
+	"file" "./instances/light_panel_32_cool_high_dynamic.vmf"
 	"targetname" "chamber_lights_3"
 	"origin" "592 0 96"
 	editor
@@ -12327,7 +12327,7 @@ entity
 	"id" "18478"
 	"classname" "func_instance"
 	"angles" "-2.50448e-006 180 90"
-	"file" "portal2_e1m1/instances/light_panel_32_cool_high_dynamic.vmf"
+	"file" "./instances/light_panel_32_cool_high_dynamic.vmf"
 	"targetname" "chamber_lights_3"
 	"origin" "480 0 304"
 	editor
@@ -12343,7 +12343,7 @@ entity
 	"id" "18512"
 	"classname" "func_instance"
 	"angles" "-5.00896e-006 -180 180"
-	"file" "portal2_e1m1/instances/light_panel_32_cool_high_dynamic.vmf"
+	"file" "./instances/light_panel_32_cool_high_dynamic.vmf"
 	"targetname" "chamber_lights_3"
 	"origin" "176 16 96"
 	editor
@@ -12359,7 +12359,7 @@ entity
 	"id" "18530"
 	"classname" "func_instance"
 	"angles" "-5.00896e-006 180 -180"
-	"file" "portal2_e1m1/instances/light_panel_32_cool_high_dynamic.vmf"
+	"file" "./instances/light_panel_32_cool_high_dynamic.vmf"
 	"targetname" "chamber_lights_3"
 	"origin" "176 -16 96"
 	editor
@@ -12407,7 +12407,7 @@ entity
 	"id" "18860"
 	"classname" "func_instance"
 	"angles" "-5.00896e-006 0 180"
-	"file" "portal2_e1m1/instances/light_panel_32_cool_high_dynamic.vmf"
+	"file" "./instances/light_panel_32_cool_high_dynamic.vmf"
 	"targetname" "chamber_lights_3"
 	"origin" "208 16 -32"
 	editor
@@ -12423,7 +12423,7 @@ entity
 	"id" "18863"
 	"classname" "func_instance"
 	"angles" "-5.00896e-006 1.00179e-005 -180"
-	"file" "portal2_e1m1/instances/light_panel_32_cool_high_dynamic.vmf"
+	"file" "./instances/light_panel_32_cool_high_dynamic.vmf"
 	"targetname" "chamber_lights_3"
 	"origin" "208 -16 -32"
 	editor
@@ -26753,7 +26753,7 @@ entity
 	"id" "4636"
 	"classname" "func_instance"
 	"angles" "-0 0 0"
-	"file" "instances/p2editor/floor_button_black_intact.vmf"
+	"file" "./instances/floor_button_black_intact_dirty.vmf"
 	"targetname" "button4"
 	connections
 	{
@@ -26762,7 +26762,7 @@ entity
 		"instance:button;OnUnPressed" "exit_logicSubtract10-1"
 		"instance:button;OnPressed" "exit_logicAdd10-1"
 	}
-	"origin" "544 128 192"
+	"origin" "544 128 128"
 	editor
 	{
 		"color" "220 30 220"
@@ -26776,7 +26776,7 @@ entity
 	"id" "5115"
 	"classname" "func_instance"
 	"angles" "-0 0 0"
-	"file" "instances/p2editor/floor_button_black_intact.vmf"
+	"file" "./instances/floor_button_black_intact_dirty.vmf"
 	"targetname" "button3"
 	connections
 	{
@@ -26785,7 +26785,7 @@ entity
 		"instance:button;OnPressed" "exit_logicAdd10-1"
 		"instance:button;OnUnPressed" "exit_logicSubtract10-1"
 	}
-	"origin" "544 -128 192"
+	"origin" "544 -128 128"
 	editor
 	{
 		"color" "220 30 220"
@@ -26799,7 +26799,7 @@ entity
 	"id" "5524"
 	"classname" "func_instance"
 	"angles" "-0 0 0"
-	"file" "instances/p2editor/floor_button_black_intact.vmf"
+	"file" "./instances/floor_button_black_intact_dirty.vmf"
 	"targetname" "button5"
 	connections
 	{
@@ -26808,7 +26808,7 @@ entity
 		"instance:button;OnUnPressed" "exit_logicSubtract10-1"
 		"instance:button;OnPressed" "exit_logicAdd10-1"
 	}
-	"origin" "544 0 -32"
+	"origin" "544 0 -96"
 	editor
 	{
 		"color" "220 30 220"
@@ -27354,7 +27354,7 @@ entity
 	"id" "1822"
 	"classname" "func_instance"
 	"angles" "-0 0 0"
-	"file" "instances/p2editor/floor_button_black_intact.vmf"
+	"file" "./instances/floor_button_black_intact_dirty.vmf"
 	"targetname" "button1"
 	connections
 	{
@@ -27363,7 +27363,7 @@ entity
 		"instance:button;OnPressed" "funnel_on_lights_toggleSetTextureIndex10-1"
 		"instance:button;OnUnPressed" "funnel_on_lights_toggleSetTextureIndex00-1"
 	}
-	"origin" "112 -96 88"
+	"origin" "112 -96 24"
 	editor
 	{
 		"color" "220 30 220"
@@ -27392,7 +27392,7 @@ entity
 	"id" "1967"
 	"classname" "func_instance"
 	"angles" "-0 0 0"
-	"file" "instances/buttons/floor_button_black_intact.vmf"
+	"file" "./instances/floor_button_black_intact_dirty.vmf"
 	"targetname" "button2"
 	connections
 	{

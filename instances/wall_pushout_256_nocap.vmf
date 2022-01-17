@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8973"
-	"mapversion" "18"
+	"mapversion" "22"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "18"
+	"mapversion" "22"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -1112,7 +1112,7 @@ entity
 	"screenspacefade" "0"
 	"skin" "0"
 	"solid" "6"
-	"origin" "-238 0 64.7816"
+	"origin" "-288 0 64.7816"
 	editor
 	{
 		"color" "255 255 0"
@@ -1135,13 +1135,13 @@ entity
 	"ignorenormals" "0"
 	"maxdxlevel" "0"
 	"mindxlevel" "0"
-	"model" "models/props_bts/straight_piston_end.mdl"
+	"model" "models/props_bts/straight_piston_tip.mdl"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
 	"screenspacefade" "0"
 	"skin" "0"
 	"solid" "6"
-	"origin" "-374 0 64.7816"
+	"origin" "-370 0 64.7816"
 	editor
 	{
 		"color" "255 255 0"
@@ -1199,7 +1199,7 @@ entity
 	"screenspacefade" "0"
 	"skin" "0"
 	"solid" "6"
-	"origin" "-163 0 64.7816"
+	"origin" "-172 0 64.7816"
 	editor
 	{
 		"color" "255 255 0"
