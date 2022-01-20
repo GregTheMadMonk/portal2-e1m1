@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8973"
-	"mapversion" "536"
+	"mapversion" "540"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "536"
+	"mapversion" "540"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -12740,7 +12740,7 @@ entity
 	"origin" "-330.39 137.877 -215"
 	editor
 	{
-		"color" "0 100 250"
+		"color" "220 30 220"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 500]"
@@ -25307,7 +25307,7 @@ entity
 	"origin" "471 -291.843 -47.8595"
 	editor
 	{
-		"color" "0 100 250"
+		"color" "220 30 220"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 6000]"
@@ -26742,7 +26742,7 @@ entity
 	"origin" "112 448 32"
 	editor
 	{
-		"color" "255 255 0"
+		"color" "220 30 220"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 0]"
@@ -26847,7 +26847,7 @@ entity
 	"texframeindex" "0"
 	connections
 	{
-		"OnPressed" "dropper2instance:cube_dropper_relay;Trigger0-1"
+		"OnPressed" "dropper2instance:counter;Add0-1"
 		"OnPressed" "dropper2_lights_toggleSetTextureIndex10-1"
 		"OnButtonReset" "dropper2_lights_toggleSetTextureIndex00-1"
 	}
@@ -27189,7 +27189,7 @@ entity
 	"origin" "-287.117 15.1734 -215"
 	editor
 	{
-		"color" "0 100 250"
+		"color" "220 30 220"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 500]"
@@ -27260,27 +27260,31 @@ entity
 {
 	"id" "1430"
 	"classname" "func_instance"
+	"$connectioncount" "1"
 	"$cube_type" "0"
+	"$disable_autodrop" "1"
 	"$disable_autorespawn" "0"
-	"$indicator_lights" "???"
+	"$indicator_lights" "0"
 	"$item_fall_straight_down" "1"
 	"$paint_power" "-1"
 	"$rusted" "0"
 	"$trigger_to_drop_box" "1"
 	"$use_new_skin_method" "1"
-	"angles" "-0 0 0"
-	"file" "instances/gameplay/item_dropper.vmf"
+	"angles" "-0 0 180"
+	"file" "./instances/item_dropper_damaged.vmf"
 	"replace01" "$trigger_to_drop_box 1"
 	"replace02" "$item_type ???"
 	"replace03" "$paint_power -1"
 	"replace04" "$disable_autorespawn 0"
 	"replace05" "$item_fall_straight_down 1"
-	"replace06" "$indicator_lights ???"
+	"replace06" "$indicator_lights 0"
 	"replace07" "$cube_type 0"
 	"replace08" "$use_new_skin_method 1"
 	"replace09" "$rusted 0"
+	"replace10" "$connectioncount 1"
+	"replace11" "$disable_autodrop 1"
 	"targetname" "dropper2"
-	"origin" "288 0 288"
+	"origin" "288 0 224"
 	editor
 	{
 		"color" "220 30 220"
