@@ -11,10 +11,15 @@ Source files for Valve Hammer Editor.
 - [ ] BTS-2
 - [ ] Final Room
 
-## Known Issues
+## Known Issues & TODO
+- [ ] trigger_catapult is needed for the fling
 - [ ] Catwalk stairs clip into catwalk
 - [ ] Faith plate sequence kind of makes no sense
+- [ ] Add test chamber cameras
+- [ ] Switch lasers texture to dirty
 
+## Pre-release TODO
+- [ ] Verify that a map compiles from a clean git clone
 
 ## Priorities
 1. Rooms, playable areas
