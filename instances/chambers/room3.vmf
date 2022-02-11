@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8997"
-	"mapversion" "541"
+	"mapversion" "542"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "541"
+	"mapversion" "542"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -1733,7 +1733,7 @@ world
 		{
 			"id" "5351"
 			"plane" "(480 -64 -96) (480 -352 -96) (608 -352 -96)"
-			"material" "ANIM_WP/FRAMEWORK/BACKPANELS"
+			"material" "METAL/BLACK_WALL_METAL_005B"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -2074,7 +2074,7 @@ world
 		{
 			"id" "5372"
 			"plane" "(480 -256 -96) (480 -256 -108) (640 -256 -108)"
-			"material" "ANIM_WP/FRAMEWORK/BACKPANELS"
+			"material" "METAL/BLACK_WALL_METAL_006B"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -4974,7 +4974,7 @@ world
 		{
 			"id" "3001"
 			"plane" "(640 -128 -96) (640 -128 -108) (480 -128 -108)"
-			"material" "ANIM_WP/FRAMEWORK/BACKPANELS"
+			"material" "METAL/BLACK_WALL_METAL_006B"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"

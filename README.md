@@ -17,6 +17,7 @@ Source files for Valve Hammer Editor.
 - [ ] Faith plate sequence kind of makes no sense
 - [ ] Add test chamber cameras
 - [ ] Switch lasers texture to dirty
+- [ ] Laser can't shoot through observation room window
 
 ## Pre-release TODO
 - [ ] Verify that a map compiles from a clean git clone
