@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8997"
-	"mapversion" "1089"
+	"mapversion" "1094"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -80,7 +80,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "1089"
+	"mapversion" "1094"
 	"classname" "worldspawn"
 	"chaptertitle" "At Cave's Gate"
 	"detailmaterial" "detail/detailsprites"
@@ -17086,7 +17086,7 @@ entity
 	"file" "instances/p2editor/global_pti_ents.vmf"
 	"replace01" "$disable_pti_audio 0"
 	"targetname" "ptients"
-	"origin" "1704 -1072 14.8521"
+	"origin" "1486 -1898 14.8521"
 	editor
 	{
 		"color" "220 30 220"
